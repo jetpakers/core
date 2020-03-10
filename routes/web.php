@@ -11,13 +11,17 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 Auth::routes();
 
+Route::get('/', 'HomeController@index')->name('root');
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/flights', 'HomeController@flights')->name('flights');
+Route::post('/flights', 'HomeController@showFlights')->name('flights.show');
 
 
 Route::group(['prefix' => 'admin'], function () {
