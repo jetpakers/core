@@ -44,7 +44,7 @@ Contact Area Start
   --para-font: 'Roboto', sans-serif;
   --heading-color: #292929;
   --para-color: #777777;
-  --main-color: #ef4919;
+  --main-color: #ea7317;
 }
 
 body {
@@ -400,9 +400,9 @@ span{
 }
 
   .preloader {
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     height: 100%;
     left: 0;
     position: fixed;
@@ -536,9 +536,9 @@ span{
   .cmn-btn {
     position: relative;
     padding: 0 30px;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
@@ -559,9 +559,9 @@ span{
     height: 100%;
     top: 0;
     content: '';
-    /* background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%); */
+    /* background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%); */
     z-index: -1;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -640,9 +640,9 @@ span{
 .cmn-btn-active:hover {
     border: 1px solid var(--main-color);
     color: #fff;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
 }
 
 /* header */
@@ -663,9 +663,9 @@ span{
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .header-section .header-top {
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     padding: 10px;
 }
 
@@ -752,9 +752,9 @@ span{
     line-height: 45px;
     color: #fff;
     border: 1px solid transparent;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     display: inline-block;
     text-align: center;
     border-radius: 10px;
@@ -1091,9 +1091,9 @@ span{
     width: 40px;
     line-height: 40px;
     border-radius: 50%;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
 }
 
 .search-bar a {
@@ -1378,9 +1378,9 @@ span{
 }
 
 .breadcrumb{
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     padding: 15px;
     margin-bottom: 0;
     margin-top: -30px;
@@ -1423,9 +1423,9 @@ span{
 }
 
 .service-icon i {
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     width: 60px;
     height: 60px;
     display: inline-block;
@@ -1703,9 +1703,9 @@ span{
 }
 
 .faq-item.open .faq-title{
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
 }
 
 .faq-item.open .faq-title .title {
@@ -1796,9 +1796,9 @@ span{
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     opacity: 0.9;
 }
 
@@ -2264,9 +2264,9 @@ span{
     top: 15px;
     right: 74px;
     color: #fff;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     font-family: 'Font Awesome 5 Free';
     font-size: 24px;
     border-radius: 50%;
@@ -2320,9 +2320,9 @@ span{
 
 .blog-item:hover .cmn-btn-active{
     color: #fff;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
 }
 
 .blog-item:hover .meta-share{
@@ -3193,9 +3193,9 @@ td{
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     opacity: .8;
 }
 
@@ -3265,9 +3265,9 @@ td{
     left: 0;
     width: 50%;
     height: 100%;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
     z-index: -1;
     clip-path: polygon(100% 0, 0 0, 0 100%);
 }
@@ -3475,9 +3475,9 @@ td{
     padding: 80px;
     text-align: left;
     border-radius: 15px 0 0 15px;
-    background-image: -moz-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -webkit-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
-    background-image: -ms-linear-gradient( -3deg, rgb(254,104,15) 2%, rgb(247,88,20) 39%, rgb(239,72,25) 94%);
+    background-image: -moz-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -webkit-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
+    background-image: -ms-linear-gradient( -3deg, #ea7317 2%, #ea7317 39%, #ea7317 94%);
 }
 
 .common-form-style .title {
@@ -4173,7 +4173,7 @@ td{
     transform: translateY(-50%);
 }
 
-.checkbox-area input[type="checkbox"] {
+.checkbox-area input[type="radio"] , .checkbox-area input[type="checkbox"] {
     width: 15px;
     height: 15px;
     top: 2px;

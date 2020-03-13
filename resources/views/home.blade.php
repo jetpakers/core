@@ -27,12 +27,12 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
                 <div class="banner-content">
-                    <h3 class="title">book your air ticket easy & fast</h3>
-                  {{--  <p>Pellentesque eros mattis pulvinar varius turpis ipsum. Congue lobortis mattis odio augue risus, condimentum quam sed lobortisorem nulla dui accumsan </p>--}}
-                    <div class="btn-area">
-                        <a href="contact.html" class="cmn-btn">know more us</a>
-                        <a href="register.html" class="cmn-btn-active">Contact us</a>
-                    </div>
+                    <p>Earn up to $300 per trip when you fly with JetPak! </p>
+                    <h3 class="title">You Fly, We Pay</h3>
+                  {{--  <div class="btn-area">
+                        <a href="{{route('about')}}" class="cmn-btn">know more us</a>
+                        <a href="{{co}}" class="cmn-btn-active">Contact us</a>
+                    </div>--}}
                 </div>
             </div>
         </div>
@@ -44,67 +44,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="search-widget">
-                    <form method="POST" action="{{route('flights.show')}}">
-                        @csrf
-                    <div class="checkbox-form d-flex flex-wrap">
-                        <div class="checkbox-area">
-                            <input type="checkbox">
-                            <label>One Way</label>
-                        </div>
-                        <div class="checkbox-area">
-                            <input type="checkbox">
-                            <label>Round Trip</label>
-                        </div>
-                        <div class="checkbox-area">
-                            <input type="checkbox">
-                            <label>Multi City</label>
-                        </div>
-                    </div>
-                    <div class="rt-input-group">
-                        <div class="single-input  col-rt-in-3">
-                            <input type="text" placeholder="form:">
-                            <span class="input-iconbadge"><img src="assets/images/icon-1.png" alt="" draggable="false"></span>
-                            <span class="input-iconbadge-right"><img src="assets/images/icon-5.png" alt="" draggable="false"></span>
-                        </div>
-                        <div class="single-input  col-rt-in-3">
-                            <input type="text" placeholder="to:">
-                            <span class="input-iconbadge"><img src="assets/images/icon-1.png" alt="" draggable="false"></span>
-                        </div>
-                        <div class="single-input  col-rt-in-3">
-                            <input type='text' id="booking_date_from" name="booking_date_from" class='datepicker-here' data-language='en' placeholder="depart">
-                            <span class="input-iconbadge"><img src="assets/images/icon-2.png" alt="" draggable="false"></span>
-                        </div>
-                        <div class="single-input  col-rt-in-3">
-                            <input type='text' id="booking_date_from" name="booking_date_from" class='datepicker-here' data-language='en' placeholder="return">
-                            <span class="input-iconbadge"><img src="assets/images/icon-2.png" alt="" draggable="false"></span>
-                        </div>
-                        <div class="single-input  col-rt-in-3">
-                            <input type="submit" class="cmn-btn" value="search">
-                        </div>
-                    </div>
-                    <div class="rt-input-group rt-input-group--style">
-                        <div class="single-input  col-rt-in-3">
-                            <select class="select-bar">
-                                <option data-display="Passengers">Passengers</option>
-                                <option value="1">Option-1</option>
-                                <option value="2">Option-2</option>
-                                <option value="3">Option-3</option>
-                            </select>
-                            <span class="input-iconbadge"><img src="assets/images/icon-3.png" alt="" draggable="false"></span>
-                        </div>
-                        <div class="single-input  col-rt-in-3">
-                            <select class="select-bar">
-                                <option data-display="Business">Business</option>
-                                <option value="1">Option-1</option>
-                                <option value="2">Option-2</option>
-                                <option value="3">Option-3</option>
-                            </select>
-                            <span class="input-iconbadge"><img src="assets/images/icon-4.png" alt="" draggable="false"></span>
-                        </div>
-                    </div>
-                    </form>
-                </div>
+                <flight-search></flight-search>
             </div>
         </div>
     </div>

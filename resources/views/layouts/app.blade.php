@@ -32,8 +32,7 @@
     <!-- responsive css link -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-    {{-- <!-- Scripts -->
-     <script src="{{ asset('js/app.js') }}" defer></script>--}}
+@yield('style')
 
     {{--  <!-- Fonts -->
       <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -110,7 +109,7 @@
 
     <!-- header-section start -->
     <header class="header-section">
-        <div class="header-top d-none d-lg-block">
+      {{--  <div class="header-top d-none d-lg-block">
              <div class="container">
                  <div class="row">
                      <div class="col-lg-3 pl-lg-0">
@@ -155,7 +154,7 @@
                      </div>
                  </div>
              </div>
-         </div>
+         </div>--}}
         {{--<div class="header-middle d-none d-xl-block">
             <div class="container">
                 <div class="row">
@@ -203,7 +202,7 @@
         <div class="header-bottom">
             <div class="container">
                 <div class="row header-border align-items-center justify-content-between">
-                    <a class="site-logo site-title" href="index.html"><img src="assets/images/logo.png" alt="site-logo"></a>
+                    <a class="site-logo site-title" href="{{route('root')}}"><img src="assets/images/logo.png" alt="site-logo"></a>
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -221,12 +220,12 @@
                     <nav class="navbar navbar-expand-lg p-0">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav main-menu ml-auto">
-                                <li ><a href="#0">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="#0">Flights</a></li>
-                                <li><a href="#0">Send With JetPak</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-
+                                <li ><a href="{{route('root')}}">Home</a></li>
+                                <li><a href="{{route('about')}}">How it Works</a></li>
+                                <li><a href="{{route('flights')}}">Flights</a></li>
+                                <li><a href="{{route('faqs')}}">FAQs</a></li>
+                                <li><a class="cmn-btn" href="{{route('send.root')}}" style="    padding: 5px 5px 0px 5px;
+    margin: 20px 0px 0px 0; color: white">Send With JetPak</a></li>
 
                             </ul>
 
@@ -325,7 +324,7 @@
                                                 <input type="text" placeholder="User Name">
                                             </div>
                                             <div class="form-group">
-                                                <input type="password" id="myInput" placeholder="Password">
+                                                <input type="password" id="myInput2" placeholder="Password">
                                                 <a href="#0" id="show-pass-one" class="show-pass"><i
                                                         class="fas fa-eye"></i></a>
                                             </div>
@@ -451,8 +450,10 @@
     </div>
     <!-- footer-section end -->
 </div>
-
-<!-- jquery -->
+<!-- Scripts -->
+<script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{ asset('js/all.js') }}" defer></script>
+{{--<!-- jquery -->
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 <!-- migarate-jquery -->
 <script src="assets/js/jquery-migrate-3.0.0.js"></script>
@@ -478,6 +479,6 @@
 <script src="assets/js/datepicker.en.js"></script>
 <!-- main -->
 <script src="assets/js/main.js"></script>
-
+--}}
 </body>
 </html>
